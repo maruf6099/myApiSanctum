@@ -9,3 +9,4 @@ use Illuminate\Support\Facades\Route;
 // })->middleware('auth:sanctum');
 
 Route::post("register",[ApiController::class,"register"]);
+Route::post("login",[ApiController::class,"login"]);
